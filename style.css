@@ -1,0 +1,50 @@
+body {
+    background-color: #fff;
+    color: #888;
+
+    margin: 0;
+    padding: 0;
+
+    -webkit-font-smoothing: antialiased;
+}
+
+#p {
+    position: absolute;
+    text-align: center;
+
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#s {
+    font-family: 'Fredoka One', cursive;
+    font-size: 20vmin;
+    font-style: normal;
+    font-weight: 400;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    color: #f35626;
+    background-image: linear-gradient(92deg, #f35626 0%,#feab3a 100%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    overflow: hidden;
+
+    animation: hue 10s infinite linear;
+}
+
+@keyframes hue {
+    from {
+      filter: hue-rotate(0deg);
+    }
+    
+    to {
+      filter: hue-rotate(-360deg);
+    }
+  }
