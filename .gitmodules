@@ -1,0 +1,3 @@
+[submodule "CodingTrain"]
+	path = CodingTrain
+	url = https://github.com/claesp/CodingTrain.git
